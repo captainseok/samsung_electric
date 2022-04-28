@@ -1,67 +1,133 @@
-#nav{
-    display:flex;
+
+ul{
+    list-style: none;
 }
-#cover{
-    background:url("https://www.samsungsem.com/resources/images/kr/main/main_video_thum1.jpg");
-    height:100vh;
-}
-.cover__title{
-    color:white;
-    padding-top:300px;
-    text-align:center;
-    font-size:40px;
+li{
+    list-style: none;
 }
 
+section{
+    width:100%;
+}
+
+#nav{
+    display:flex;
+    align-items: center;
+}
+.navbar__menus{
+    display:flex;
+    padding-left:200px;
+    padding-right:500px;
+}
+.navbar__menu{
+    padding:40px;
+    padding-top:10px;
+    padding-bottom: 0px;
+}
+.navbar__search{
+    background-color: #043385;
+    color:white;
+}
+
+#coverss{
+    height:100vh;
+    position:relative;
+}
+.covers{
+    transition:transform 0.5s;
+    display:flex;
+    flex-direction: row;
+}
+.cover{
+    width:100%;
+}
+
+.cover__title{
+    padding-top:200px;
+    text-align:center;
+    font-size:40px;
+    position:relative;
+    top:-800px;
+    color:white;
+}
+.cover__btns{
+    font-size: 50px;
+    position:relative;
+}
+
+
+#information{
+    padding-top:50px;
+    padding-bottom:50px;
+}
 .enter__inform{
    text-align:center;
    padding-top:20px;
+   padding-bottom:20px;
    font-size: 25px;
+   color:black;
 }
 .sub__informs{
     display:flex;
     justify-content: space-evenly;
 }
 .inform__icon1{
-    background:url("https://www.samsungsem.com/resources/images/kr/main/icon_aboutus_01.png");
-    width:62px;
-    height:72px;
+    background:url("https://www.samsungsem.com/resources/images/kr/main/icon_aboutus_01.png") no-repeat;
+    width:130px;
+    height:100px;
 }   
 .inform__icon2{
-    background:url("https://www.samsungsem.com/resources/images/kr/main/icon_aboutus_02.png");
-    width:62px;
-    height:72px;
+    background:url("https://www.samsungsem.com/resources/images/kr/main/icon_aboutus_02.png") no-repeat;
+    width:130px;
+    height:100px;
 }
 .inform__icon3{
-    background:url("https://www.samsungsem.com/resources/images/kr/main/icon_aboutus_03.png");   
-    width:62px;
-    height:72px;
+    background:url("https://www.samsungsem.com/resources/images/kr/main/icon_aboutus_03.png") no-repeat;   
+    width:130px;
+    height:100px;
 }
 .inform__icon4{
-    background:url("https://www.samsungsem.com/resources/images/kr/main/icon_aboutus_04.png");  
-    width:62px;
-    height:72px;
+    background:url("https://www.samsungsem.com/resources/images/kr/main/icon_aboutus_04.png") no-repeat;  
+    width:130px;
+    height:100px;
+}
+.inform__content{
+    font-size: 17px;
+}
+.inform__number{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
 }
 .chop{
     display: none;
 }
 .button__deco{
-    display:flex;
-    justify-self: center;
+background-color: #043285;
+color:white;
+border-style:none;
+margin:auto;
+display:block;
 
 }
 
 #news{
     display:flex;
     flex-direction: column;
+    background:url(https://www.samsungsem.com/resources/images/kr/main/bg_newsroom.jpg);
+}
+.news__total{
+    padding: 76px 36px 300px;
+}
+.news__total__sub{
+    background-color: white;
 }
 .news__title{
     text-align: center;
+    
 }
 .news__contents{
-    display:flex;
-    justify-content: space-evenly;
-}
-.news__plots{
+    padding-top:10px;
     display:flex;
     justify-content: space-evenly;
 }
@@ -70,7 +136,91 @@
     font-weight: bold;
 
 }
+.news__plots{
+    display:flex;
+    justify-content: space-evenly;
+    padding:50px;
+}
 .news__letter{
     background:url(https://www.samsungsem.com/resources/images/kr/main/bg_newsletter.jpg) no-repeat;
-    background-size: cover;
+    width:600px;
+    height:200px;
+    background-size:cover;
+}
+#products{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+    top:-200px;
+
+}
+.product__cover{
+    color:white;
+}
+.productors{
+    display: flex;
+    justify-content: space-between;
+}
+.product1{
+    position:relative;
+    background:url(https://www.samsungsem.com/resources/images/kr/main/bg_product_01.jpg)
+    no-repeat;
+    margin:50px;
+}
+.product2{
+    position:relative;
+    background:url(https://www.samsungsem.com/resources/images/kr/main/bg_product_02.jpg)
+    no-repeat;
+    margin:50px;
+}
+.product3{
+    position:relative;
+    background:url(https://www.samsungsem.com/resources/images/kr/main/bg_product_03.jpg)
+    no-repeat;
+    margin:50px;
+}
+.product__description{
+    position:relative;
+    top:200px;
+}
+.product__components{
+    position:relative;
+    top:200px;
+    right:50px;
+}
+.product__title{
+    color:#043285;
+    font-size:20px;
+
+}
+.product__subtitle{
+    color:gray;
+}
+.product__component{
+    padding:10px;
+}
+
+
+#footer{
+    background-color:#f3f3f3;
+    display:flex;
+    justify-content: space-evenly;
+    height:40vh;
+}
+.footer__menus{
+    padding-top:50px;
+    padding-right:100px;
+}
+
+.footer__menu{
+    padding:10px;
+    color:gray;
+    position:relative;
+    right:10px;
+}
+
+.footer__menu__title{
+    font-size:18px;
+
 }

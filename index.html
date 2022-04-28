@@ -9,6 +9,8 @@
     <script src = 'main.js' defer></script>
     <script src="https://kit.fontawesome.com/0e79d506ba.js"
     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 </head>
 <body>
     
@@ -21,120 +23,180 @@
             <div class="navbar__menu">제품정보</div>
             <div class="navbar__menu">고객지원</div>
         </div>
+  
         <div class="navbar__choices">
             <div class="navbar__choice">SNS</div>
             <div class="navbar__choice">KOR</div>
         </div>
-        <div class="navbar__search"><i class="fa-solid fa-magnifying-glass"></i></div>
+        <div class="navbar__search"><i class="fa-solid fa-magnifying-glass w3-large"></i></div>
     </section>
-    <section id="cover">
-    <h1 class="cover__title"=>5G 시대를 맞이하여 더 앞선<br>기술로<br>더 나은 세상을 열러 갑니다</h1>    
+    <section id="coverss">
+    <div class="cover__btns">
+        <div class="previous__btn">
+        <i class="fa-solid fa-arrow-left"></i>
+        </div>
+        <div class="next__btn">
+        <i class="fa-solid fa-arrow-right"></i>
+        </div>
+    </div>
+    <ul class="covers">
+    <li class="cover">
+    <img src="https://www.samsungsem.com/resources/images/kr/main/main_video_thum1.jpg">   
+    <h1 class="cover__title">5G 시대를 맞이하여 더 앞선<br>기술로<br>더 나은 세상을 열러 갑니다</h1>
+    </li>
+    <li class="cover">
+    <img src="https://www.samsungsem.com/resources/images/kr/main/main_video_thum2.jpg">   
+    <h1 class="cover__title">최첨단 스마트폰과 다양한 디바이스를 위<br>한<br>최적의 솔루션으로 더 나은 내일을 만들<br>고 있습니다</h1>
+    </li> 
+    <li class="cover">
+    <img src="https://www.samsungsem.com/resources/images/kr/main/main_video_thum3.jpg">       
+    <h1 class="cover__title">4차 산업혁명을 현실로 만드는<br>첨단 융복합 기술을 이끌어 가고 있습니<br>다</h1>
+    </li>
+    </ul>    
     </section>
     <section id="information">
-    <div class="enter__inform"><h1>기업 정보</h1></div>
-    <div class="sub__informs">
-        <div class="sub__inform">
-            <div class="inform__icon1"><p class="chop">#</div>
-            <div class="inform__content">설립연도</div>
-            <div class="inform__number">1973년</div>
+        <div class="enter__inform"><h1>기업 정보</h1></div>
+        <div class="sub__informs">
+            <div class="sub__inform">
+                <div class="inform__icon1"><p class="chop">#</div>
+                <div class="inform__content"><strong>설립연도</strong></div>
+                <div class="inform__number"><h1>1973</h1>년</div>
+            </div>
+            <div class="sub__inform">
+                <div class="inform__icon2"><p class="chop">#</div>
+                <div class="inform__content"><strong>매출</strong></div>
+                <div class="inform__number"><h1>8</h1>조 <h1>408</h1>억</div>
+            </div>
+            <div class="sub__inform">
+                <div class="inform__icon3"><p class="chop">#</div>
+                <div class="inform__content"><strong>자산</strong></div>
+                <div class="inform__number"><h1>8</h1>조 <h1>6742</h1>억</div>
+            </div>
+            <div class="sub__inform">
+                <div class="inform__icon4"><p class="chop">#</p></div>
+                <div class="inform__content"><strong>생산거점 및 판매거점</strong></div>
+                <div class="inform__number"><h1>5</h1>개국 <h1>10</h1>개 <h1>8</h1>개국 <h1>16</h1>개</div>
+            </div>
         </div>
-        <div class="sub__inform">
-            <div class="inform__icon2"><p class="chop">#</div>
-            <div class="inform__content">매출</div>
-            <div class="inform__number">8조 408억</div>
+        <button class="button__deco">자세히 보기</button>
+        </section>
+        <section id="news">
+        <div class="news__total">
+        <div class="news__total__sub">       
+        <div class="news__title"><h1>뉴스룸</h1></div>
+        <div class="news__contents">
+            <div class="news__content">
+                <div class="news__quest">2021년 하반기 IT전시회는<br>어떤 것이 있을까</div>
+                <div class="news__date">2021.08.01</div>
+            </div>
+            <div class="news__content">
+                <div class="news__quest">2021년 상반기 IT전시회는<br>어떤 것이 있을까</div>
+                <div class="news__date">2021.02.01</div>
+            </div>
+            <div class="news__content">
+                <div class="news__quest">2020년 하반기 IT전시회는<br>어떤 것이 있을까</div>
+                <div class="news__date">2020.08.01</div>
+            </div>
+            <div class="news__content">
+                <div class="news__quest">2020년 상반기 IT전시회는<br>어떤 것이 있을까</div>
+                <div class="news__date">2020.02.01</div>
+            </div>
         </div>
-        <div class="sub__inform">
-            <div class="inform__icon3"><p class="chop">#</div>
-            <div class="inform__content">자산</div>
-            <div class="inform__number">8조 6742억</div>
+        <div class="news__plots">
+            <div class="news__letter">
+                <h1>뉴스레터</h1>
+                <p>삼성전기의 신속하게 전해드립니다.</p>
+                <button>뉴스레터 보기</button>   <button>뉴스레터 신청</button>
+            </div>
+            <div class="news__channel">
+                <h1>소셜채널</h1>
+                <p>삼성전기의 다양한 소셜채널을 만나보세요.</p>           
+            </div>
         </div>
-        <div class="sub__inform">
-            <div class="inform__icon4"><p class="chop">#</p></div>
-            <div class="inform__content">생산거점 및 판매거점</div>
-            <div class="inform__number">5개국 10개 8개국 16개/</div>
         </div>
-    </div>
-    <div class="button__deco">
-    <button>자세히 보기</button>
-    </div>
-    </section>
-    <section id="news">
-    <div class="news__title">뉴스룸</div>
-    <div class="news__contents">
-        <div class="news__content">
-            <div class="news__quest">2021년 하반기 IT전시회는<br>어떤 것이 있을까</div>
-            <div class="news__date">2021.08.01</div>
+        </div>   
+        </section>
+        <section id="products">
+        <div class="product__cover">
+            <h1>제품정보</h1>
         </div>
-        <div class="news__content">
-            <div class="news__quest">2021년 상반기 IT전시회는<br>어떤 것이 있을까</div>
-            <div class="news__date">2021.02.01</div>
+        <div class="productors">   
+        <div class="product1">
+        <div class="product__description">
+        <div class="product__title"><h2>컴포넌트</h2></div> 
+        <div class="product__subtitle">
+            전자회로에서 신호의 흐름을<br>조절하는 Passive(수동) 부품입니다.
+        </div>    
         </div>
-        <div class="news__content">
-            <div class="news__quest">2020년 하반기 IT전시회는<br>어떤 것이 있을까</div>
-            <div class="news__date">2020.08.01</div>
+        <ul class="product__components">
+            <li class="product__component">MLCC></li>
+            <li class="product__component">Inductor></li>
+            <li class="product__component">Chip Resistor</li>
+        </ul>
         </div>
-        <div class="news__content">
-            <div class="news__quest">2020년 상반기 IT전시회는<br>어떤 것이 있을까</div>
-            <div class="news__date">2020.02.01</div>
+        <div class="product2">
+        <div class="product__description">
+        <div class="product__title"><h2>모듈</h2></div>
+        <div class="product__subtitle">
+            복수의 전자부품이나 기계부품 등으로 조립된<br>특정 기능을 가진 장치입니다.
+        </div> 
         </div>
-    </div>
-    <div class="news__plots">
-        <div class="news__letter">
-            <h1>뉴스레터</h1>
-            <p>삼성전기의 신속하게 전해드립니다.</p>
-            <button>뉴스레터 보기</button>   <button>뉴스레터 신청</button>
+        <ul class="product__components">
+            <li class="product__component">Camera Module></li>
+            <li class="product__component">Communication Module></li>
+        </ul>
         </div>
-        <div class="news__channel">
-            <h1>소셜채널</h1>
-            <p>삼성전기의 다양한 소셜채널을 만나보세요.</p>           
+        <div class="product3">
+        <div class="product__description">
+        <div class="product__title"><h2>인쇄회로기판</h2></div>
+        <div class="product__subtitle">
+            반도체, 수동소자 등 각종 전자부품을<br>상호 연결시켜 주는 역할을 합니다.
+        </div>  
         </div>
-    </div>   
-    </section>
-    <section id="products">
-    <div class="product__cover">
-        제품 정보
-    </div>   
-    <div class="product">
-    <div class="product__description">
-    <div class="product__title">컴포넌트</div> 
-    <div class="product__subtitle">
-        전자회로에서 신호의 흐름을<br>조절하는 Passive(수동) 부품입니다.
-    </div>    
-    </div>
-    <div class="product__components">
-        <div class="product__component">MLCC></div>
-        <div class="product__component">Inductor></div>
-        <div class="product__component">Chip Resistor</div>
-    </div>
-    </div>
-    <div class="product">
-    <div class="product__description">
-    <div class="product__title">모듈</div>
-    <div class="product__subtitle">
-        복수의 전자부품이나 기계부품 등으로 조립된<br>특정 기능을 가진 장치입니다.
-    </div> 
-    </div>
-    <div class="product__components">
-        <div class="product__component">Camera Module></div>
-        <div class="product__component">Communication Module></div>
-    </div>
-    </div>
-    <div class="product">
-    <div class="product__description">
-    <div class="product__title">인쇄회로기판</div>
-    <div class="product__subtitle">
-        반도체, 수동소자 등 각종 전자부품을<br>상호 연결시켜 주는 역할을 합니다.
-    </div>  
-    </div>
-    <div class="product__components">
-        <div class="product__component">Package Substrate></div>
-        <div class="product__component">HDI></div>
-        <div class="product__component">RFPCB></div>
-    </div>
-    </div>
-    </section>
-    <section id="footer">
-
-    </section>
+        <ul class="product__components">
+            <li class="product__component">Package Substrate></li>
+            <li class="product__component">HDI></li>
+            <li class="product__component">RFPCB></li>
+        </ul>
+        </div>
+        </div>
+        </section>
+        <section id="footer">
+            <ul class="footer__menus">
+                <li class="footer__menu_title"><strong>기업정보</strong></li>
+                <li class="footer__menu">기업 소개</li>
+                <li class="footer__menu">IR</li>
+                <li class="footer__menu">지속가능성</li>
+            </ul>
+            <ul class="footer__menus">
+                <li class="footer__menu_title"><strong>인재채용</strong></li>
+                <li class="footer__menu">직무소개</li>
+                <li class="footer__menu">회사생활</li>
+                <li class="footer__menu">채용프로세스</li>
+                <li class="footer__menu">채용공고</li>
+                <li class="footer__menu">채용 Tips</li>
+            </ul>
+            <ul class="footer__menus">
+                <li class="footer__menu_title"><strong>뉴스룸</strong></li>
+                <li class="footer__menu">뉴스</li>
+                <li class="footer__menu">뉴스레터</li>
+            </ul>
+            <ul class="footer__menus">
+                <li class="footer__menu_title"><strong>제품정보</strong></li>
+                <li class="footer__menu">컴포넌트</li>
+                <li class="footer__menu">모듈</li>
+                <li class="footer__menu">인쇄회로기판</li>
+                <li class="footer__menu">적용분야</li>
+                <li class="footer__menu">Product Search</li>
+            </ul>
+            <ul class="footer__menus">
+                <li class="footer__menu_title"><strong>고객지원</strong></li>
+                <li class="footer__menu">고객문의</li>
+                <li class="footer__menu">Sales Partners</li>
+                <li class="footer__menu">인증서</li>
+                <li class="footer__menu">기술자료</li>
+                <li class="footer__menu">대금지불 안내</li>
+            </ul>
+        </section>
 </body>
 </html>
