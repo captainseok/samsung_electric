@@ -1,6 +1,7 @@
 
 ul{
     list-style: none;
+    padding:0;
 }
 li{
     list-style: none;
@@ -31,15 +32,20 @@ section{
 
 #coverss{
     height:100vh;
+}
+.container{
+    overflow:hidden;
     position:relative;
 }
 .covers{
-    transition:transform 0.5s;
+    width:300vw;
+    transition:transform 0.8s;
     display:flex;
-    flex-direction: row;
+    justify-content: center
 }
 .cover{
-    width:100%;
+    width:100vw;
+    padding:0px;
 }
 
 .cover__title{
@@ -51,11 +57,32 @@ section{
     color:white;
 }
 .cover__btns{
-    font-size: 50px;
+    font-size:50px;
+    display:flex;
+    justify-content: space-between;
     position:relative;
 }
 
-
+.previous__btn{
+    position:absolute;
+    color:white;
+    bottom:900px;
+    left:30px;
+    opacity:0.5;
+}
+.previous__btn:hover{
+    opacity:1;
+}
+.next__btn{
+    position:absolute;
+    color:white;
+    bottom:900px;
+    right:30px;
+    opacity:0.5;
+}
+.next__btn:hover{
+    opacity:1;
+}
 #information{
     padding-top:50px;
     padding-bottom:50px;
@@ -223,4 +250,22 @@ display:block;
 .footer__menu__title{
     font-size:18px;
 
+}
+
+.arrow__up{
+    font-size:50px;
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    border-radius:50%;
+    color:white;
+    background-color:black;
+    opacity:0;
+    transition: all 300ms ease-in;
+}
+.arrow__up:hover{
+    opacity:1;
+}
+.arrow__up.visible{
+    opacity:0.5;
 }
