@@ -13,7 +13,15 @@ section{
 
 #nav{
     display:flex;
+    flex-direction: column;
     align-items: center;
+}
+.navbar__display{
+    width:100vw;
+    display:flex;
+}
+#Btn:hover{
+    cursor:pointer;
 }
 .navbar__menus{
     display:flex;
@@ -29,7 +37,20 @@ section{
     background-color: #043385;
     color:white;
 }
+.navbar__hidden{
+    width:100vw;
+    background-color:#ececec;
+    justify-content: space-around;
+    display: flex;
+    opacity:0;
 
+}
+.navbar__hidden.active{
+    opacity:1;
+}
+.navbar__menu__IR{
+    padding-right:0;
+}
 #coverss{
     height:100vh;
 }

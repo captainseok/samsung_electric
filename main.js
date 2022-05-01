@@ -43,3 +43,10 @@ document.addEventListener('scroll',()=>{
         Btn.classList.remove('visible');
     }
 });
+
+
+const menuBtn = document.querySelector('#Btn');
+const hiddenNav = document.querySelector('.navbar__hidden');
+menuBtn.addEventListener('click',() => {
+    hiddenNav.classList.toggle('active');
+});
